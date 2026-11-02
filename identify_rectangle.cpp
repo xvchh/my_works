@@ -45,8 +45,6 @@ int main() {
 
         cv::Mat result = img.clone();
 
-        std::vector<cv::Rect> detectedRects;
-
         for (int j = 0; j < contours.size(); j++)
         {
             int parent = hierarchy[j][3];//只留外层轮廓，保留重叠时在上面的
