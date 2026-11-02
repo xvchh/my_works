@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <filesystem>
+#include <algorithm>
 
 int main() {
     std::string folder_path = "input/*.png";
