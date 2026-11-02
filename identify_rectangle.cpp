@@ -146,7 +146,8 @@ int main() {
             std::cout << "rect" << count << " ";
 
             for (int k = 0; k < 4; k++) {
-                std::cout << "(" << approx[k].x << ", " << approx[k].y << ")";
+                int outputY = img.rows - 1 - approx[k].y;
+                std::cout << "(" << approx[k].x << ", " << outputY << ")";
 
                 if (k < 3)
                     std::cout << "; ";
