@@ -1,0 +1,11 @@
+build/
+install/
+log/
+*.o
+*.so
+*.a
+__pycache__/
+*.pyc
+photo/result*.png
+photo/mask*.png
+.vscode/
