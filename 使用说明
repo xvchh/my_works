@@ -1,5 +1,5 @@
 打开四个终端分别colcon build,. install/setup.bash后分别：
-ros2 run cpp_service cpp_serve打开服务通信服务端
+ros2 run cpp_service cpp_server打开服务通信服务端
 ros2 run cpp_service cpp_talker打开话题通信发布端
 ros2 launch rosbridge_server rosbridge_websocket_launch.xml开启通道
 ros2 run cpp_service cpp_client red/blue/green调用服务通信客户端
